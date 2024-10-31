@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dashed-line {
+  background: repeating-linear-gradient(
+    90deg,
+    #eab308,
+    #eab308 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.dashed-line:nth-child(2) {
+  background: repeating-linear-gradient(
+    180deg,
+    #eab308,
+    #eab308 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
